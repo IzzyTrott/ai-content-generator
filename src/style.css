@@ -30,11 +30,18 @@ h1 {
 }
 
 .text-input {
-  width: 80%;
+  width: 45%;
   font-size: 14px;
   padding: 5px;
   border-radius: 10px;
-  border: 2px solid blue;
+  border: 1px solid blue;
+}
+.select-content {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: grey;
 }
 
 .submit-button {
