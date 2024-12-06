@@ -63,6 +63,20 @@ h1 {
   line-height: 28px;
 }
 
+.content strong {
+  color: blue;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+.hidden {
+  display: none;
+}
 footer {
   font-size: 10px;
   text-align: center;

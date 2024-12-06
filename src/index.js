@@ -9,8 +9,10 @@ function displayContent(response) {
 
 function generateContent(event) {
   event.preventDefault();
-
   let textInput = document.querySelector("#text-input");
+  let content = document.querySelector("#content");
+  content.innerHTML = `<span class="blink">⏳ Generating your content about ${textInput.value}</span>`;
+  content.classList.remove("hidden");
 
   let apiKey = "475c1b09tc9cf784eac1636c9abbbco2";
   let context =
