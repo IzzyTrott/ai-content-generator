@@ -1,1 +1,74 @@
+body {
+  background-color: blue;
+}
 
+.container {
+  background-color: lightskyblue;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0 10px 0;
+}
+
+.intro {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form-container {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.text-input {
+  width: 80%;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.submit-button {
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+  border: none;
+}
+
+.hint {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 3px;
+  opacity: 50%;
+}
+
+.poem-content {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border-left: 5px solid blue;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  opacity: 70%;
+}
+
+a {
+  color: blue;
+}
