@@ -4,59 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI content generator</title>
   </head>
   <body>
     <div class="container">
-    <h1>AI content generator</h1>
-    <div class="intro">
-      Create an AI generated poem, joke or quote on the topic of your choosing
-    </div>
+      <h1>AI content generator</h1>
+      <div class="intro">
+        Create an AI generated poem, joke or quote on the topic of your choosing
+      </div>
 
-    <main>
+      <main>
         <div class="form-container">
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your topic here"
-          required
-          autofocus
-          autocomplete="off"
-          class="text-input"
-        />
-        <input type="submit" value="Submit" class="submit-button" />
-      </form>
+          <form id="content-generator">
+            <input
+              type="text"
+              placeholder="Enter your topic here"
+              required
+              autofocus
+              autocomplete="off"
+              class="text-input"
+              id="text-input"
+            />
+            <input
+              type="submit"
+              value="Submit"
+              class="submit-button"
+              id="submit-buttton"
+            />
+          </form>
 
-      <div class="hint">i.e. dogs, cake or summer</div>
-      </div>
+          <div class="hint">i.e. dogs, cake or summer</div>
+        </div>
 
-      <div class="poem-content">
-        khsgdfjhsgdjf
-        <br />
-        khsgdfjhsgdjf
-        <br />
-        khsgdfjhsgdjf
-        <br />
-        khsgdfjhsgdjf
-      </div>
-    </main>
-    <footer>
-      <p>
-        This AI project was coded by
-        <a href="https://github.com/IzzyTrott" target="_blank">Izzy Trott</a>,
-        is
-        <a
-          href="https://github.com/IzzyTrott/ai-content-generator"
-          target="_blank"
-          >open-sourced on Github</a
-        >
-        and
-        <a href="https://it-ai-content-generator.netlify.app" target="_blank"
-          >hosted on Netlify</a
-        >
-        👩🏼‍💻
-      </p>
-    </footer>
+        <div class="content" id="content">
+        </div>
+      </main>
+      <footer>
+        <p>
+          This AI project was coded by
+          <a href="https://github.com/IzzyTrott" target="_blank">Izzy Trott</a>,
+          is
+          <a
+            href="https://github.com/IzzyTrott/ai-content-generator"
+            target="_blank"
+            >open-sourced on Github</a
+          >
+          and
+          <a href="https://it-ai-content-generator.netlify.app" target="_blank"
+            >hosted on Netlify</a
+          >
+          👩🏼‍💻
+        </p>
+      </footer>
     </div>
   </body>
   <script src="src/index.js"></script>
