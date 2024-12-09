@@ -1,9 +1,10 @@
 body {
-  background-color: blue;
+  background-color: #a77ca8;
+  font-family: Montserrat;
 }
 
 .container {
-  background-color: lightskyblue;
+  background-color: #f8e7e7;
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
@@ -20,33 +21,36 @@ h1 {
   text-align: center;
   font-size: 14px;
   margin: 0;
+  font-weight: 200;
 }
 
 .form-container {
-  background-color: aliceblue;
+  background-color: #fff8f8;
   padding: 10px;
   margin: 20px 0;
   border-radius: 10px;
 }
 
 .text-input {
-  width: 45%;
+  width: 48%;
   font-size: 14px;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 1px solid #724060;
 }
 .select-content {
+  width: 32%;
   font-size: 14px;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 1px solid #724060;
   color: grey;
+  margin-left: 5px;
 }
 
 .submit-button {
   color: white;
-  background-color: blue;
+  background-color: #724060;
   font-size: 14px;
   padding: 5px 15px;
   border-radius: 10px;
@@ -62,16 +66,16 @@ h1 {
 }
 
 .content {
-  background-color: aliceblue;
+  background-color: #fff8f8;
   padding: 10px;
   margin: 20px 0;
   border-radius: 10px;
-  border-left: 5px solid blue;
+  border-left: 5px solid #724060;
   line-height: 28px;
 }
 
 .content strong {
-  color: blue;
+  color: #724060;
 }
 @keyframes blink {
   50% {
@@ -84,6 +88,17 @@ h1 {
 .hidden {
   display: none;
 }
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 60px;
+  margin: 0 20px;
+}
 footer {
   font-size: 10px;
   text-align: center;
@@ -92,5 +107,5 @@ footer {
 }
 
 a {
-  color: blue;
+  color: #724060;
 }
